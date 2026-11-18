@@ -1,0 +1,11 @@
+.build/
+.build-*/
+dist/
+research/*.dmg
+.DS_Store
+artifacts/
+
+# Signing secrets stay in the local keychain.
+*.key
+*.p12
+*.pfx
